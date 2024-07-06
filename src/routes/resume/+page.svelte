@@ -8,347 +8,105 @@
   description="Software engineer, researcher, and designer. Making meaningful systems and interfaces for people."
 />
 
-<section class="layout-md py-12">
+<section class="layout-md py-6">
   <h2 class="heading2">Education</h2>
 
   <div class="mb-4">
     <div class="flex justify-between items-end">
-      <h3 class="text-black text-lg">Harvard University</h3>
-      <div class="text-neutral-500 mb-0.5">2022 — 2023</div>
+      <h3 class="text-black text-lg">University of Guelph</h3>
+      <div class="text-neutral-500 mb-0.5">Sep 2020 – Apr 2024</div>
     </div>
-    <p class="byline">S.M. in Computer Science</p>
+    <p class="byline">Bachelor of Computing, Computer Science and Economics</p>
   </div>
-
-  <div class="mb-4">
-    <div class="flex justify-between items-end">
-      <h3 class="text-black text-lg">Harvard University</h3>
-      <div class="text-neutral-500 mb-0.5">2019 — 2023</div>
-    </div>
-    <p class="byline">A.B. in Computer Science and Mathematics</p>
-  </div>
-
-  <p>Graduated magna cum laude, with highest honors in field.</p>
-
-  <h4 class="font-medium mt-4 mb-1">Teaching:</h4>
-  <ul>
-    <li>
-      TF for CS 153 (Compilers), Fall 2021 —
-      <em>Certificate of Distinction in Teaching</em>
-    </li>
-    <li>
-      TA for
-      <a class="link" href="https://sgi.mit.edu/"
-        >Summer Geometry Institute (SGI)</a
-      >, Summer 2021
-    </li>
-    <li>
-      TF for CS 161 (Operating Systems), Spring 2021 —
-      <em>Certificate of Distinction in Teaching</em>
-    </li>
-    <li>TF for CS 182 (Artificial Intelligence), Fall 2020</li>
-    <li>
-      TF for CS 124 (Data Structures and Algorithms), Spring 2020 —
-      <em>Commendation for Extraordinary Teaching</em>
-    </li>
-  </ul>
-
-  <h4 class="font-medium mt-4 mb-1">Graduate-level technical coursework:</h4>
-  <ul>
-    <li>Advanced Computational Complexity (CS 221)</li>
-    <li>Random Processes and Algorithms (CS 223)</li>
-    <li>Computational Learning Theory (CS 228)</li>
-    <li>Advanced Computer Networks (CS 243)</li>
-    <li>Advanced Topics in PL/AI (CS 252r)</li>
-    <li>Advanced Topics in PL Design (CS 252r)</li>
-    <li>Systems Security (CS 263)</li>
-    <li>Distributed Systems Engineering (MIT 6.824)</li>
-    <li>Shape Analysis (MIT 6.838)</li>
-    <li>Robotic Manipulation (MIT 6.843)</li>
-    <li>Probability (Stat 210)</li>
-    <li>Statistical Inference (Stat 211)</li>
-  </ul>
-
-  <h4 class="font-medium mt-4 mb-1">Undergraduate technical coursework:</h4>
-  <ul>
-    <li>Compilers (CS 153)</li>
-    <li>Operating Systems (CS 161)</li>
-    <li>Computer Graphics (MIT 6.837)</li>
-    <li>Nanotechnology Fabrication (MIT 6.2540)</li>
-    <li>Chaotic Dynamical Systems (Math 118r)</li>
-    <li>Number Fields (Math 129)</li>
-    <li>Differential Topology (Math 132)</li>
-    <li>Honors Abstract Algebra (Math 55a)</li>
-    <li>Honors Real and Complex Analysis (Math 55b)</li>
-  </ul>
 </section>
 
-<section class="layout-md py-12">
-  <h2 class="heading2">Professional Experience</h2>
+<section class="layout-md py-6">
+  <h2 class="heading2">Work Experience</h2>
 
   <Workplace
-    title="Founding Engineer"
-    company="Modal Labs"
-    url="https://modal.com/"
-    dates="February 2022 – Current"
-    location="New York, NY"
+    title="Backend & Infrastructure Engineer (Contract)"
+    company="Deloitte"
+    url="https://www2.deloitte.com/us/en/pages/risk/solutions/cyber-incident-response-services.html"
+    dates="Sep 2023 – Jul 2024"
+    location="Toronto, Ontario"
   >
-    <li>
-      Modal is a high-performance, low-latency serverless function platform. I
-      designed and implemented the first version of Modal's container runtime in
-      Rust.
-    </li>
-    <li>
-      Helped scale the platform from 50 CPUs / 2 GPUs to 100,000 CPUs / 5,000
-      GPUs.
-    </li>
-    <li>
-      Engineered FUSE file systems, a global sub-millisecond cache over hundreds
-      of terabytes in tiered storage, backpressure for distributed queues,
-      fault-tolerant TLS relays, container sandboxing, an internal HTTP/3
-      service transport, etc.
-    </li>
-    <li>
-      Made the <a class="link" href="https://modal.com">modal.com</a> website. Created
-      our design system and frontend, including user dashboards, authentication,
-      a unified documentation site, 2D + 3D graphics, and web-based internal tools.
-      Mentored coworkers in web development.
-    </li>
-    <li>Wrote most of our core development scripts. Made CI fast.</li>
-    <li>
-      Investigated systems issues, like reducing end-to-end server latency by
-      3x, fixing all manner of bugs, and disclosing security vulnerabilities in
-      dependencies.
-    </li>
-    <li>
-      Introduced Rust and Svelte to the company. I rewrote at least 4 systems in
-      Rust. All of them remained in use, since people like working on them, and
-      they are more robust than the systems they replaced (i.e., boring and
-      reliable, low p99 latency, no production issues).
-    </li>
+    <li>Transitioned from manual deployments to Continuous Deployment (CD) by building a Deployment Pipeline that tests and deploys directly to AWS infrastructure, reducing deployment time from 20 minutes to less than 5 minutes.</li>
+    <li>Built a Python-based AWS Lambda Scheduler to run daily jobs that fetch new cybersecurity incidents, enhancing the timeliness and effectiveness of our incident response and monitoring systems.</li>
+    <li>Implemented an Application Load Balancer in AWS for efficient traffic distribution across multiple Fargate instances, reducing downtime from 15 minutes to 0 seconds for each deployment.</li>
+    <li>Developed and configured Docker containers for React.js, MongoDB, Express/GraphQL, and Nginx, successfully deploying them on AWS ECS - Fargate, within a secure VPC environment, ensuring robust security measures.</li>
+    <li>Implemented AWS Secrets Manager Password Rotation for DocumentDB cluster security in TypeScript, regularly updating access credentials for enhanced database security and compliance.</li>
   </Workplace>
 
   <Workplace
-    title="Contract Software Engineer"
-    company="Prosper Robotics"
-    url="https://prosper.org/"
-    dates="January 2022"
-    location="London, UK"
+    title="Software Engineer Intern"
+    company="Amazon"
+    url="https://www.amazon.com/ftu/home"
+    dates="May 2023 – Aug 2023"
+    location="Toronto, Ontario"
   >
-    <li>
-      Early-stage startup developing VR-teleoperated household robots. Worked
-      with electrical and mechanical engineers.
-    </li>
-    <li>
-      I wrote real-time (&lt;10 μs) embedded microcontrollers in C++, developed
-      new network services and robot control systems in Go. Refactored a lot of
-      code, fixed many bugs, ported software to a new robot, introduced
-      continuous integration, tests, static type checking for Python.
-    </li>
+    <li>Engineered a web app for Amazon Kids+ to fetch subscription offers from different regions, attach metadata to offers, and update customer eligibility for offers, reducing processing time from 3-5 minutes to less than 5 seconds.</li>
+    <li>Lowered subscription service downtime from 5 minutes to ∼0.1 seconds by automating AWS Systems Manager configuration (AWS AppConfig) deployments for customer eligibility using Java and AWS CDK.</li>
+    <li>Developed and deployed Virtual Private Cloud (VPC) and AWS Lambda infrastructure using AWS CDK (TypeScript), ensuring secure connections by adding IAM roles for enhanced deployment and connectivity.</li>
   </Workplace>
 
   <Workplace
-    title="Software Engineer"
-    company="Convex"
-    url="https://convex.dev/"
-    dates="June 2021 – October 2021"
-    location="San Francisco, CA"
+    title="Software Engineer Intern"
+    company="TD Bank"
+    url="https://www.td.com/us/en/personal-banking"
+    dates="Jan 2023 – Apr 2023"
+    location="Toronto, Ontario"
   >
-    <li>
-      First hired engineer at a seed-stage startup. Worked with three
-      experienced technical cofounders (ex-principal engineers at Dropbox) to
-      build a reactive, serverless database platform using Rust, integrated with
-      the V8 JavaScript engine.
-    </li>
-    <li>
-      Wrote significant components of the MVP. As an early core team member,
-      this included rearchitecting the entire Convex client library, writing
-      several systems components in Rust, and advising on developer experience.
-    </li>
+    <li>Migrated 9 SOAP API endpoints to 3 REST API endpoints in Java and Spring Boot using OpenAPI specifications that scale to over a million customers, resulting in reduction of production downtime from 5 minutes to less than 1 second.</li>
+    <li>Devised a robust XML parser using Python that seamlessly converted 9 endpoints from XML to JSON, boosting data accessibility for other engineers on the team by 75% and significantly reducing parsing time by 90%.</li>
   </Workplace>
 
   <Workplace
-    title="Quantitative Research Intern"
-    company="Jump Trading"
-    url="https://jumptrading.com/"
-    dates="June 2021 – August 2021"
-    location="Chicago, IL"
+    title="Software Engineer Intern (Platform and Cloud Architecture)"
+    company="Interac"
+    url="https://www.interac.ca/en/consumers/products/interac-e-transfer/"
+    dates="Sep 2022 – Dec 2022"
+    location="Toronto, Ontario"
   >
-    <li>
-      Won the intern trading strategies competition and rotated on a trading
-      team to research algorithmic signals in US equities.
-    </li>
-    <li>
-      Developed decentralized apps on the Ethereum blockchain for the
-      cryptocurrency team, including new trading algorithms on DEXs. Contributed
-      to the open source Ethereum ecosystem in Rust, Go, and Python.
-    </li>
-  </Workplace>
-
-  <Workplace
-    title="Software Engineering Intern"
-    company="Scale AI"
-    url="https://scale.com/"
-    dates="December 2020 – January 2021"
-    location="San Francisco, CA"
-  >
-    <li>
-      Worked on machine learning infrastructure for a fast-growing startup using
-      Terraform, Kubernetes, and AWS.
-    </li>
-    <li>
-      Developed an in-house system to unify the ML training workflow, allowing
-      the team to quickly iterate on models, share results on a tracking server,
-      and launch Kubernetes distributed training jobs, saving “hours” of time on
-      each experiment.
-    </li>
-  </Workplace>
-
-  <Workplace
-    title="Architecture Intern"
-    company="Nvidia"
-    url="https://www.nvidia.com"
-    dates="June 2020 – August 2020"
-    location="Santa Clara, CA"
-  >
-    <li>
-      Worked with the Applied Deep Learning Research (ADLR) group on
-      <a class="link" href="https://arxiv.org/abs/2005.10821"
-        >deep learning models</a
-      > for street image segmentation.
-    </li>
-    <li>
-      Individually developed and released
-      <a class="link" href="https://github.com/ekzhang/fastseg">FastSeg</a>, an
-      open-source library containing state-of-the-art PyTorch implementations of
-      MobileNetV3 LR-ASPP for real-time semantic segmentation, significantly
-      more accurate than existing public implementations.
-    </li>
-  </Workplace>
-
-  <Workplace
-    title="Research Assistant"
-    company="Harvard Programming Languages Group"
-    url="https://pl.seas.harvard.edu/"
-    dates="June 2020 – August 2020"
-    location="Cambridge, MA"
-    defaultHidden
-  >
-    <li>
-      Worked on a C++ compiler for
-      <a class="link" href="https://github.com/HarvardPL/formulog">Formulog</a>,
-      a variant of Datalog that supports ML-like syntax extension and SMT
-      queries.
-    </li>
-    <li>
-      Generated highly parallel templatized C++17 code, used caching in B-Tree
-      comparisons to speed up Datalog evaluation by 16x, and optimized existing
-      OpenMP code using lockless data structures for an additional 4x speedup.
-    </li>
-    <li>
-      Wrote a handwritten parser that was 30x faster than the ANTLR-generated
-      LL(*) parser and used 20x less memory (80 GB to 4 GB).
-    </li>
-  </Workplace>
-
-  <Workplace
-    title="Undergraduate Researcher"
-    company="Predictive Medicine Group"
-    url="https://www.predmed.org/"
-    dates="December 2019 – June 2020"
-    location="Boston, MA"
-    defaultHidden
-  >
-    <li>
-      Conducted research in statistics & medical informatics advised by Ben Reis
-      (Harvard Medical School), developing temporal models to identify patients
-      at high risk of suicide based on medical histories obtained from
-      Massachusetts General Hospital.
-    </li>
-  </Workplace>
-
-  <Workplace
-    title="Computer Science Instructor"
-    company="AlphaStar Academy"
-    url="https://alphastar.academy/"
-    dates="December 2017 – April 2020"
-    location="Santa Clara, CA"
-    defaultHidden
-  >
-    <li>
-      Taught advanced algorithms and data structures (USACO Platinum) and
-      AIME-level (national math competition) mathematics to talented high school
-      students across the nation.
-    </li>
-    <li>
-      Developed detailed lesson plans and recorded lectures for future summer
-      programs and online courses.
-    </li>
+    <li>Developed authentication infrastructure of Interac e-Transfers in Canada using Azure Key Vault, Azure Stack Hub, and Azure Identity Management of a system that drives 371.4 million highly secure transactions every day.</li>
+    <li>Initiated and coordinated building of Interac’s Digital Platform architecture and infrastructure, used by Canadians 660,000 times daily, through Jira assignments and documenting Proof-of-Concepts for other Architects.</li>
   </Workplace>
 </section>
 
-<section class="layout-md py-12">
-  <h2 class="heading2">Awards and Honors</h2>
+<section class="layout-md py-6">
+  <h2 class="heading2">University Experience</h2>
 
-  <div class="mb-4">
-    <h3 class="font-medium mb-1">Computer Science:</h3>
-    <ul>
-      <li>
-        <b>International Olympiad in Informatics (IOI):</b> Gold Medalist (2018,
-        2019), 7<sup>th</sup> place globally
-      </li>
-      <li>
-        <b>Google Hash Code:</b> World Finalist (2020, 2021, 2022), 6<sup
-          >th</sup
-        > place team out of over 100,000 students and professionals
-      </li>
-      <li>
-        <b>Google Code Jam:</b> Round 3 Finalist (2020), placed 34<sup>th</sup>
-        globally
-      </li>
-      <li><b>Facebook Hacker Cup:</b> Round 3 Finalist (2020)</li>
-      <li><b>PicoCTF:</b> Winner (2018), ranked 6th</li>
-    </ul>
-  </div>
+  <Workplace
+    title="Undergraduate Researcher (C++)"
+    company="University of Guelph"
+    url="https://www.uoguelph.ca"
+    dates="Jan 2024 – Apr 2024"
+    location="Guelph, Ontario"
+  >
+    <li>Developed a modular TCP server in C++ using advanced OOP design patterns such as Singleton, Builder, and Decorator, which streamlined the integration of security/logging features, significantly boosting system adaptability.</li>
+    <li>Optimized a C++ TCP server by implementing a robust observer-subject framework, which enhanced real-time event logging and observer management, thereby handling multiple client connections simultaneously.</li>
+  </Workplace>
 
-  <div class="mb-4">
-    <h3 class="font-medium mb-1">Mathematics:</h3>
-    <ul>
-      <li>
-        <b>Mathematical Olympiad Program (MOP):</b> Participant (2017), IMO team
-        selection group (2017, 2018)
-      </li>
-      <li>
-        <b>USA Math Olympiad (USAMO):</b> Honorable Mention (2017), top 24 in nation
-      </li>
-    </ul>
-  </div>
+  <Workplace
+    title="Research Associate (System Design)"
+    company="University of Guelph"
+    url="https://www.uoguelph.ca"
+    dates="Jan 2023 – Apr 2023"
+    location="Guelph, Ontario"
+  >
+    <li>Developed architecture design for a sophisticated game matchmaking server, which integrated microservices and RabbitMQ to drive substantial scalability and streamline communication between players and servers.</li>
+    <li>Executed the seamless integration of MongoDB as a cornerstone for secure player data storage, ensuring uninterrupted game progress preservation and streamlined query operations for enhanced system responsiveness.</li>
+  </Workplace>
 
-  <div class="mb-4">
-    <h3 class="font-medium mb-1">Physics:</h3>
-    <ul>
-      <li><b>U.S. Physics Team:</b> Invitee (2017, 2018, 2019)</li>
-      <li>
-        <b>USA Physics Olympiad (USAPhO):</b> Gold Medalist (2017, 2018, 2019)
-      </li>
-    </ul>
-  </div>
-
-  <div class="mb-4">
-    <h3 class="font-medium mb-1">Music Performance:</h3>
-    <ul>
-      <li>
-        <b>National YoungArts Foundation:</b> Winner in Classical Music (2018, 2019)
-      </li>
-      <li>
-        <b>JDR Viola Competition:</b> Grand prize winner, performed with a professional
-        orchestra (2019)
-      </li>
-      <li>
-        <b>Texas All-State Symphony Orchestra:</b> Principal Violist (2017), Co-Principal
-        (2016, 2018)
-      </li>
-    </ul>
-  </div>
+  <Workplace
+    title="Teaching Assistant (OOP)"
+    company="University of Guelph"
+    url="https://www.uoguelph.ca"
+    dates="Jan 2023 – Apr 2023"
+    location="Guelph, Ontario"
+  >
+    <li>Led 75+ one-on-one tutoring sessions to solidify students' concepts on Object-Oriented Programming and JUnit Testing.</li>
+    <li>Conducted 85+ interviews to assess students' grasp of course content, along with grading of tests and assignments.</li>
+  </Workplace>
 </section>
 
 <style lang="postcss">

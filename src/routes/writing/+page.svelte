@@ -10,11 +10,11 @@
 />
 
 <section class="layout-md py-12">
-  <h2 class="heading2">Notes and Tutorials</h2>
+  <h2 class="heading2">Articles:</h2>
   <WritingList data={writing.notes} />
 </section>
 
-<section class="layout-md py-12">
+<!-- <section class="layout-md py-12">
   <h2 class="heading2">Academic Writing</h2>
   <WritingList data={writing.papers} />
-</section>
+</section> -->

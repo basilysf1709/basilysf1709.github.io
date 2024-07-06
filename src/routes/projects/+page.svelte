@@ -62,11 +62,11 @@
 
 <Seo
   title="Basil Yusuf – Projects"
-  description="Open-source software projects in systems, web development, computer graphics, music, programming languages, machine learning, and more."
+  description="Open-source software projects in systems, web development, programming languages, machine learning, and more."
 />
 
-<section class="layout-md py-12">
-  <h2 class="heading2">Open Source</h2>
+<!-- <section class="layout-md py-12"> -->
+  <!-- <h2 class="heading2">Open Source</h2>
 
   <p class="text-lg mb-4">
     I view building software in the open as a mode of <em
@@ -99,9 +99,9 @@
       {/each}
     </ul>
   </section>
-</div>
+</div> -->
 
-<div class="bg-neutral-50 border-b border-neutral-200 py-4">
+<!-- <div class="bg-neutral-50 border-b border-neutral-200 py-4">
   <div class="flex justify-center space-x-6">
     <button
       class:active={sortOrder === "date"}
@@ -116,7 +116,7 @@
       <Star size={18} strokeWidth={1.8} class="mr-1.5" /> by Stars
     </button>
   </div>
-</div>
+</div> -->
 
 {#each sortOrder === "date" ? projectsByDate : projectsByStars as id (id)}
   <section class="py-10" id={trimName(id)}>

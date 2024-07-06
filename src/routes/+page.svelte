@@ -5,50 +5,38 @@
 
   const featuredProjects = [
     {
-      name: "sshx",
-      href: "/projects#sshx",
-      desc: "secure web-based, collaborative terminal",
+      name: "dockermake",
+      href: "https://github.com/basilysf1709/dockermake",
+      desc: "add a makefile for your docker",
     },
     {
-      name: "Bore",
-      href: "/projects#bore",
-      desc: "bypass your NAT in just 400 lines of code",
-      aside: "7500+ stars on GitHub",
+      name: "design patterns",
+      href: "https://github.com/basilysf1709/tcp-server-design-patterns",
+      desc: "design patterns in low-level C++ networking"
     },
     {
-      name: "Percival",
-      href: "/projects#percival",
-      desc: "reactive notebooks for exploratory data analysis",
+      name: "teachify",
+      href: "https://github.com/UsmanBasilAgency/teachify",
+      desc: "Fully administered AI tool to help professors and students in their daily tasks",
+      aside: "Backed by Prof. Judi McCuaig"
     },
     {
-      name: "Rustpad",
-      href: "/projects#rustpad",
-      desc: "self-hosted collaborative text editor",
-      aside: "2M+ downloads",
+      name: "getquranverse",
+      href: "https://github.com/basilysf1709/getquranverse",
+      desc: "Quran Trivia with friends",
+      aside: "2000 visitors"
     },
     {
-      name: "Crepe",
-      href: "/projects#crepe",
-      desc: "compiled Datalog language in Rust",
-      aside: "used by distributed databases & security systems",
-    },
-    {
-      name: "FastSeg",
-      href: "/projects#fastseg",
-      desc: "real-time semantic segmentation for self-driving cars",
-    },
-    {
-      name: "Set with Friends",
-      href: "/projects#setwithfriends",
-      desc: "online multiplayer card game",
-      aside: "30M+ page views, 900K+ users",
+      name: "rate-limiter",
+      href: "https://github.com/basilysf1709/rate-limiting-as-a-service",
+      desc: "Implementing rate limiting algorithms in go"
     },
   ];
 </script>
 
 <Seo
   title="Basil Yusuf"
-  description="Software engineer, researcher, and designer. Making meaningful systems and interfaces for people."
+  description="Software engineer, researcher, and reader. Making meaningful systems and interfaces for people."
 />
 
 <p
@@ -57,31 +45,27 @@
 >
   <span class="g">is a</span> software engineer<span class="g">,</span><br />
   researcher<span class="g">, and</span><br />
-  designer<span class="g">.</span>
+  reader<span class="g">.</span>
 </p>
 
 <div class="layout-md text-lg space-y-14">
   <div class="space-y-5">
     <p>
-      I am going to work at <a class="link" href="https://hubspot.com">HubSpot</a> (Sep 2024), a
-      CRM platform.
+      I am an Incoming Software Engineer at <a class="link" href="https://hubspot.com">HubSpot</a>, a
+      leading CRM platform.
     </p>
 
     <p>
-      I hope to develop better <em>interactive software</em> for people to cultivate
-      and share ideas, and to meaningfully express what brings them joy.
+      I am deeply passionate about developing software that solves hard technical problems at scale.
     </p>
 
     <p>
-      Towards that goal, I am a generalist and care deeply about <em>systems</em
-      >, which form the fundamental building blocks of our applications; and
-      <em>interaction design</em>, how we use and live with computers that are
-      all around us.
+      In this pursuit, I aspire to become a specialist with deep domain-specific knowledge in Platform, Infrastructure, and Distributed Systems. I aim to master the intricacies of designing and managing scalable, robust, and efficient systems that can support a wide range of applications. My goal is to contribute to the development of cutting-edge technologies that enhance user experiences and drive innovation in the field of software engineering.
     </p>
   </div>
 
   <div class="leading-snug space-y-4">
-    <p class="pb-2">Notable open-source work:</p>
+    <p class="pb-2">Notable projects:</p>
 
     {#each featuredProjects as project}
       <a class="project-pair" href={project.href}>
@@ -101,68 +85,35 @@
 
   <div class="space-y-5">
     <p>
-      Previously, I worked at <a class="link" href="https://prosper.org"
-        >Prosper Robotics</a
-      >, <a class="link" href="https://convex.dev">Convex</a>,
-      <a class="link" href="https://jumptrading.com">Jump Trading</a>,
-      <a class="link" href="https://scale.com">Scale AI</a>, and
-      <a class="link" href="https://nvidia.com">Nvidia</a>. I’ve also
-      independently published things in the past, like a
+      Previously, I worked at <a class="link" href="https://deloitte.com"
+        >Deloitte</a
+      >, <a class="link" href="https://www.amazon.ca/ftu/home">Amazon</a>,
+      <a class="link" href="https://td.com">TD Bank</a>, and
+      <a class="link" href="https://interac.ca">Interac</a>. I’ve also
+      independently published things in the past, like an article on
       <a
         class="link"
-        href="https://pubs.aip.org/books/monograph/129/F-ma-Contests2011-2019-Solutions-Manual"
-        >physics book</a
-      >,
-      <a
-        class="link"
-        href="https://www.combinatorics.org/ojs/index.php/eljc/article/view/v28i1p24/pdf"
-        >combinatorics research</a
+        href="https://medium.com/@basilyusuf1709/docker-commands-are-long-and-boring-heres-a-better-approach-5b3e1bfef481"
+        >docker</a
       >, and
-      <a class="link" href="https://github.com/ekzhang/graphics-workshop"
-        >graphics tutorials</a
+      <a class="link" href="https://github.com/basilysf1709/tcp-server-design-patterns"
+        >low-level networking</a
       >
-      used by thousands. Before that, I won two gold medals at the
-      <a class="link" href="https://stats.ioinformatics.org/people/6717"
-        >International Olympiad in Informatics</a
+      for research. Additionally, I have also won
+      <a class="link" href="https://devpost.com/basilyusuf1709"
+        >three hackathons</a
       >.
     </p>
 
     <p>
-      I recently graduated from Harvard, where I was a teaching fellow for
-      upper-level CS classes, wrote my <a
-        class="link"
-        rel="external"
-        href="/assets/pdf/Senior_Thesis.pdf">thesis on Datalog</a
-      >, and studied art, music, and sociology. I am a classical violist and
-      enjoy making music with others (<a
-        class="link"
-        href="https://www.youtube.com/live/_T4IVv0becE">1</a
-      >,
-      <a
-        class="link"
-        href="https://www.thecrimson.com/article/2023/4/18/Natasha-pierre-great-comet-1812-musical-preview/"
-        >2</a
-      >, <a class="link" href="https://youtu.be/4ysgUA-rKUw">3</a>,
-      <a class="link" href="https://youtu.be/rYrVFTzP4sw">4</a>,
-      <a class="link" href="https://www.harvardbachsoc.org/">5</a>,
-      <a
-        class="link"
-        href="https://news.harvard.edu/gazette/story/2019/11/west-side-story-explores-racial-ethnic-political-complications/"
-        >6</a
-      >,
-      <a class="link" href="https://youtu.be/OcucfY2Kzqo">7</a>,
-      <a class="link" href="https://youngarts.org/">8</a>).
+      I recently graduated from University of Guelph, where I was a
+      <a class="link" href="https://medium.com/@basilyusuf1709/skill-based-matchmaking-architecture-sbmm-open-source-0f1184b8ceb2"
+        >Research Associate</a
+      > on Open Source Skill-based Matchmaking Architecture (SBMM) and a <a class="link" href="https://www.uoguelph.ca/registrar/calendars/undergraduate/2019-2020/courses/cis2430.shtml"
+      >Teaching Assistant</a> for Object-oriented Programming (CIS*2430).
     </p>
 
-    <p>Other interests: math, physics, reading, photography, and biking.</p>
-  </div>
-
-  <div class="space-y-5">
-    <!-- <p>This is what I look like:</p> -->
-    <img
-      alt="Self-portrait photograph of Basil Yusuf at his desk"
-      src="/assets/images/profile4.jpg"
-    />
+    <p>Other interests: russian philosophy, islamic theology, geopolitics, history.</p>
   </div>
 </div>
 
