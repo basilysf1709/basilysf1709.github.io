@@ -47,7 +47,7 @@
 </script>
 
 <Seo
-  title="Eric Zhang"
+  title="Basil Yusuf"
   description="Software engineer, researcher, and designer. Making meaningful systems and interfaces for people."
 />
 
@@ -63,8 +63,8 @@
 <div class="layout-md text-lg space-y-14">
   <div class="space-y-5">
     <p>
-      I currently work at <a class="link" href="https://modal.com">Modal</a>, a
-      new cloud computing platform.
+      I am going to work at <a class="link" href="https://hubspot.com">HubSpot</a> (Sep 2024), a
+      CRM platform.
     </p>
 
     <p>
@@ -160,7 +160,7 @@
   <div class="space-y-5">
     <!-- <p>This is what I look like:</p> -->
     <img
-      alt="Self-portrait photograph of Eric Zhang at his desk"
+      alt="Self-portrait photograph of Basil Yusuf at his desk"
       src="/assets/images/profile4.jpg"
     />
   </div>
