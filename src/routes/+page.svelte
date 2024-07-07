@@ -114,6 +114,9 @@
     </p>
 
     <p>Other interests: russian philosophy, islamic theology, geopolitics, history.</p>
+    <p>Template by <a class="link" href="https://www.ekzhang.com/"
+      >Eric Zhang</a
+    ></p>
   </div>
 </div>
 
