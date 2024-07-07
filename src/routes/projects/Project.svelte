@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Star } from "lucide-svelte";
+  import { Github } from "lucide-svelte";
 
   import Markdown from "$lib/components/Markdown.svelte";
   import { formatTime } from "$lib/utils";
@@ -35,7 +35,7 @@
     class="pill hover:!bg-neutral-200 transition-colors"
     href="https://github.com/{data.repo}/stargazers"
   >
-    <Star size={14} class="fill-current" />
+    <Github size={14} class="fill-current" />
     {#if stars?.[data.repo] !== undefined}
       <span class="ml-1">{stars[data.repo].toLocaleString()}</span>
     {:else}
