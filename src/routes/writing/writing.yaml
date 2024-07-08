@@ -111,7 +111,13 @@ notes:
     date: 2024-02-19
     summary: >
       Docker commands, while powerful, can be long and complex, making them difficult to handle across varied environments. To simplify this, the "dockermake" npm package was created, which uses Makefiles to turn cumbersome commands into simple ones.
-    link: https://medium.com/@basilyusuf1709/docker-commands-are-long-and-boring-heres-a-better-approach-5b3e1bfef481
+    link: https://medium.com/@basilyusuf1709/docker-commands-are-long-and-boring-heres-a-better-approach-5b3e1bfef481\
+
+  - title: "Docker Cheat Sheet (For me)"
+    date: 2023-02-19
+    summary: >
+      This cheat sheet provides essential Docker commands and concepts, including managing containers, images, and networks, as well as using Docker Compose for multiple containers. It highlights the differences between Docker and virtual machines and explains the use of Docker volumes for data persistence. This guide serves as a quick reference to streamline Docker workflows and ensure efficient container management.
+    link: https://medium.com/@basilyusuf1709/docker-cheat-sheet-103e9c5fdaeb
 
   - title: "Thoughts on Meditations — Marcus Aurelius"
     date: 2019-07-27
