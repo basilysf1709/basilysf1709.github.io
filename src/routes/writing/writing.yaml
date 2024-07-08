@@ -112,3 +112,15 @@ notes:
     summary: >
       Docker commands, while powerful, can be long and complex, making them difficult to handle across varied environments. To simplify this, the "dockermake" npm package was created, which uses Makefiles to turn cumbersome commands into simple ones.
     link: https://medium.com/@basilyusuf1709/docker-commands-are-long-and-boring-heres-a-better-approach-5b3e1bfef481
+
+  - title: "Thoughts on Meditations — Marcus Aurelius"
+    date: 2019-07-27
+    summary: >
+      The book explores stoic principles, emphasizing indifference to change, objective perception, and fulfilling one's natural duties with joy and serenity. It provides a comprehensive overview of stoicism and the importance of living a meaningful life aligned with nature's order.
+    link: https://medium.com/@basilyusuf1709/thoughts-on-meditations-marcus-aurelius-8cc2111ba7cb
+  
+  - title: "Thoughts on Unwind — Neal Shusterman"
+    date: 2019-04-27
+    summary: >
+      Set in a dystopian world, "Unwind" follows three teens selected for unwinding, a process akin to teenage abortion. The story delves into their struggles against societal corruption and the impact of their choices on their character development.
+    link: https://medium.com/@basilyusuf1709/thoughts-on-unwind-neal-shusterman-f4afee30cd15
