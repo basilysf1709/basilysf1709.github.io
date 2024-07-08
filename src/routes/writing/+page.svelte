@@ -10,7 +10,7 @@
 />
 
 <section class="layout-md py-12">
-  <h2 class="heading2">Articles:</h2>
+  <h2 class="heading2">Writing:</h2>
   <WritingList data={writing.notes} />
 </section>
 
