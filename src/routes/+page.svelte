@@ -50,10 +50,10 @@
 
 <div class="layout-md text-lg space-y-14">
   <div class="space-y-5">
-    <p>
+    <!-- <p>
       I am an Incoming Software Engineer at <a class="link" href="https://hubspot.com">HubSpot</a>, a
       leading CRM platform.
-    </p>
+    </p> -->
 
     <p>
       I am deeply passionate about developing software that solves hard technical problems at scale.
