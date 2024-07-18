@@ -60,7 +60,7 @@
     </p>
 
     <p>
-      In this pursuit, I aspire to become a specialist with deep domain-specific knowledge in Platform, Infrastructure, and Distributed Systems. I aim to master the intricacies of designing and managing scalable, robust, and efficient systems that can support a wide range of applications. My goal is to contribute to the development of cutting-edge technologies that enhance user experiences and drive innovation in the field of software engineering.
+      In this pursuit, I aspire to become a specialist with deep domain-specific knowledge in Platform, Infrastructure, and Distributed Systems. I aim to master designing and managing scalable, robust, and efficient systems that can support a wide range of applications. My goal is to contribute to the development of cutting-edge technologies that enhance performance and scalability.
     </p>
   </div>
 
