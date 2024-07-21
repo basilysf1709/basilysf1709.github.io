@@ -101,6 +101,12 @@ papers:
     link: "https://math.mit.edu/research/highschool/primes/materials/2018/conf/9-2%20Zhang.pdf"
 
 notes:
+  - title: "Kubernetes: A Basic Overview"
+    date: 2024-07-21
+    summary: >
+      Kubernetes, also known as K8s, is an open-source system for automating the deployment, scaling, and management of containerized applications. It consists of master nodes that manage the cluster and worker nodes that run applications, supporting persistent storage through Persistent Volumes (PVs).
+    link: https://medium.com/@basilyusuf1709/kubernetes-a-basic-overview-ad83bd92b727
+
   - title: "Skill-based matchmaking architecture (SBMM) — open source"
     date: 2024-07-06
     summary: >
@@ -124,7 +130,7 @@ notes:
     summary: >
       The book explores stoic principles, emphasizing indifference to change, objective perception, and fulfilling one's natural duties with joy and serenity. It provides a comprehensive overview of stoicism and the importance of living a meaningful life aligned with nature's order.
     link: https://medium.com/@basilyusuf1709/thoughts-on-meditations-marcus-aurelius-8cc2111ba7cb
-  
+
   - title: "Thoughts on Unwind — Neal Shusterman"
     date: 2019-04-27
     summary: >
