@@ -1,111 +1,9 @@
-papers:
-  - title: Designing Datalog-Based Embedded Languages
-    date: 2023-03-24
-    summary: >
-      My senior thesis, where I design and implement two logic programming
-      languages, present case studies on their real-world usage, and evaluate
-      them as systems.
-    link: /assets/pdf/Senior_Thesis.pdf
-
-  - title: Tandem Solar Cells
-    date: 2022-12-13
-    summary: >
-      Fabrication and characterization of a tandem solar device. Final project
-      for MIT class 6.2540 on nanofabrication.
-    link: "https://docs.google.com/presentation/d/e/2PACX-1vTK3Mz-3TaocxwgeP-RuD4qhdBk6bn_UzdZDrVRpP6-p-wnLut_mfGB0PzeSTnbIc20eXG7E618-Npw/pub"
-
-  - title: Multi-Architecture Parallelism
-    date: 2022-12-11
-    summary: >
-      Envisioning flexible parallelism in deep learning compilers on
-      heterogeneous compute. Final project for CS 243, Advanced Computer
-      Networks.
-    link: /assets/pdf/Jax_Parallelism.pdf
-
-  - title: Pressure Field Models
-    date: 2021-12-08
-    summary: >
-      Efficient simulation of contact dynamics using a hydroelastic intersection
-      model. Final project for 6.834, Robotic Manipulation.
-    link: /assets/pdf/Hydroelastics.pdf
-
-  - title: Pencil Sketch Rendering
-    date: 2021-05-21
-    summary: >
-      Real-time stylized rendering of meshes and SDFs using geometry processing
-      techniques. Final project for 6.838, Shape Analysis.
-    link: "https://pencil-sketching.vercel.app/Pencil-Sketching.pdf"
-
-  - title: Time-Space Lower Bounds
-    date: 2021-05-06
-    summary: >
-      An technical exposition of Ran Raz's strong hardness result for learning
-      problems. Final project for CS 221, Advanced Computational Complexity.
-    link: /assets/pdf/Learning_Space_Cryptography.pdf
-
-  - title: 3-Inflatable Permutations
-    date: 2021-01-29
-    summary: >
-      Mathematics research paper, published in the Electronic Journal of
-      Combinatorics (E-JC).
-    link: "https://www.combinatorics.org/ojs/index.php/eljc/article/view/v28i1p24/pdf"
-
-  - title: Taint Analysis for Browser Fingerprinting
-    date: 2020-12-11
-    summary: >
-      Dynamic taint analysis for user privacy on the web. Final project for CS
-      263, Systems Security.
-    link: /assets/pdf/Browser_Fingerprinting.pdf
-
-  - title: Generative Music Modeling
-    date: 2020-12-08
-    summary: >
-      Composing music by annealed Langevin dynamics and noise-conditional score
-      networks. Final project for CS 252r, Advanced Topics in Programming
-      Languages and AI.
-    link: /assets/pdf/Generative_Music_Modeling.pdf
-
-  - title: Lorenz Attractor Bifurcations
-    date: 2020-11-23
-    summary: >
-      Presentation on chaos theory of the Lorenz system, local and global
-      bifurcations. Final project for Math 118r, Chaotic Dynamical Systems.
-    link: /assets/pdf/Lorenz_System_Bifurcations.pdf
-
-  - title: DeepCoder
-    date: 2020-10-15
-    summary: >
-      Seminar presentation on learned inductive program synthesis (published in
-      ICLR 2017) for CS 252r, Advanced Topics in Programming Languages and AI.
-    link: /assets/pdf/DeepCoder.pdf
-
-  - title: Compression-Based Generalization Bounds
-    date: 2020-05-14
-    summary: >
-      Survey of modern research in deep learning theory. Final project for CS
-      228, Computational Learning Theory.
-    link: /assets/pdf/Compression_Based_Generalization_Bounds.pdf
-
-  - title: Single Bidder Auctions
-    date: 2019-12-10
-    summary: >
-      Survey of research in mechanism design and optimal transport theory. Final
-      project for CS 223, Random Processes and Algorithms.
-    link: /assets/pdf/Single_Bidder_Multi_Item_Auctions.pdf
-
-  - title: On Quasirandom Permutations
-    date: 2018-05-20
-    summary: >
-      Talk introducing new forcing results on quasirandom permutations. This
-      solved an open problem in combinatorics.
-    link: "https://math.mit.edu/research/highschool/primes/materials/2018/conf/9-2%20Zhang.pdf"
-
 notes:
-  - title: "Kubernetes: A Basic Overview"
-    date: 2024-07-21
+  - title: "Load Balancer Visualization tool"
+    date: 2024-07-22
     summary: >
-      Kubernetes, also known as K8s, is an open-source system for automating the deployment, scaling, and management of containerized applications. It consists of master nodes that manage the cluster and worker nodes that run applications, supporting persistent storage through Persistent Volumes (PVs).
-    link: https://medium.com/@basilyusuf1709/kubernetes-a-basic-overview-ad83bd92b727
+      I created a Load Balancer Visualization Tool to deepen my understanding of distributed systems concepts. In this project, I implemented three common load balancing algorithms (Round Robin, Least Connections, and Random) and visualized their operation using React and React Flow on the frontend, with a Flask backend.
+    link: https://medium.com/@basilyusuf1709/load-balancer-visualization-tool-2456c6b9c812
 
   - title: "Skill-based matchmaking architecture (SBMM) — open source"
     date: 2024-07-06
@@ -136,3 +34,106 @@ notes:
     summary: >
       Set in a dystopian world, "Unwind" follows three teens selected for unwinding, a process akin to teenage abortion. The story delves into their struggles against societal corruption and the impact of their choices on their character development.
     link: https://medium.com/@basilyusuf1709/thoughts-on-unwind-neal-shusterman-f4afee30cd15
+
+
+papers:
+#   - title: Designing Datalog-Based Embedded Languages
+#     date: 2023-03-24
+#     summary: >
+#       My senior thesis, where I design and implement two logic programming
+#       languages, present case studies on their real-world usage, and evaluate
+#       them as systems.
+#     link: /assets/pdf/Senior_Thesis.pdf
+
+#   - title: Tandem Solar Cells
+#     date: 2022-12-13
+#     summary: >
+#       Fabrication and characterization of a tandem solar device. Final project
+#       for MIT class 6.2540 on nanofabrication.
+#     link: "https://docs.google.com/presentation/d/e/2PACX-1vTK3Mz-3TaocxwgeP-RuD4qhdBk6bn_UzdZDrVRpP6-p-wnLut_mfGB0PzeSTnbIc20eXG7E618-Npw/pub"
+
+#   - title: Multi-Architecture Parallelism
+#     date: 2022-12-11
+#     summary: >
+#       Envisioning flexible parallelism in deep learning compilers on
+#       heterogeneous compute. Final project for CS 243, Advanced Computer
+#       Networks.
+#     link: /assets/pdf/Jax_Parallelism.pdf
+
+#   - title: Pressure Field Models
+#     date: 2021-12-08
+#     summary: >
+#       Efficient simulation of contact dynamics using a hydroelastic intersection
+#       model. Final project for 6.834, Robotic Manipulation.
+#     link: /assets/pdf/Hydroelastics.pdf
+
+#   - title: Pencil Sketch Rendering
+#     date: 2021-05-21
+#     summary: >
+#       Real-time stylized rendering of meshes and SDFs using geometry processing
+#       techniques. Final project for 6.838, Shape Analysis.
+#     link: "https://pencil-sketching.vercel.app/Pencil-Sketching.pdf"
+
+#   - title: Time-Space Lower Bounds
+#     date: 2021-05-06
+#     summary: >
+#       An technical exposition of Ran Raz's strong hardness result for learning
+#       problems. Final project for CS 221, Advanced Computational Complexity.
+#     link: /assets/pdf/Learning_Space_Cryptography.pdf
+
+#   - title: 3-Inflatable Permutations
+#     date: 2021-01-29
+#     summary: >
+#       Mathematics research paper, published in the Electronic Journal of
+#       Combinatorics (E-JC).
+#     link: "https://www.combinatorics.org/ojs/index.php/eljc/article/view/v28i1p24/pdf"
+
+#   - title: Taint Analysis for Browser Fingerprinting
+#     date: 2020-12-11
+#     summary: >
+#       Dynamic taint analysis for user privacy on the web. Final project for CS
+#       263, Systems Security.
+#     link: /assets/pdf/Browser_Fingerprinting.pdf
+
+#   - title: Generative Music Modeling
+#     date: 2020-12-08
+#     summary: >
+#       Composing music by annealed Langevin dynamics and noise-conditional score
+#       networks. Final project for CS 252r, Advanced Topics in Programming
+#       Languages and AI.
+#     link: /assets/pdf/Generative_Music_Modeling.pdf
+
+#   - title: Lorenz Attractor Bifurcations
+#     date: 2020-11-23
+#     summary: >
+#       Presentation on chaos theory of the Lorenz system, local and global
+#       bifurcations. Final project for Math 118r, Chaotic Dynamical Systems.
+#     link: /assets/pdf/Lorenz_System_Bifurcations.pdf
+
+#   - title: DeepCoder
+#     date: 2020-10-15
+#     summary: >
+#       Seminar presentation on learned inductive program synthesis (published in
+#       ICLR 2017) for CS 252r, Advanced Topics in Programming Languages and AI.
+#     link: /assets/pdf/DeepCoder.pdf
+
+#   - title: Compression-Based Generalization Bounds
+#     date: 2020-05-14
+#     summary: >
+#       Survey of modern research in deep learning theory. Final project for CS
+#       228, Computational Learning Theory.
+#     link: /assets/pdf/Compression_Based_Generalization_Bounds.pdf
+
+#   - title: Single Bidder Auctions
+#     date: 2019-12-10
+#     summary: >
+#       Survey of research in mechanism design and optimal transport theory. Final
+#       project for CS 223, Random Processes and Algorithms.
+#     link: /assets/pdf/Single_Bidder_Multi_Item_Auctions.pdf
+
+#   - title: On Quasirandom Permutations
+#     date: 2018-05-20
+#     summary: >
+#       Talk introducing new forcing results on quasirandom permutations. This
+#       solved an open problem in combinatorics.
+#     link: "https://math.mit.edu/research/highschool/primes/materials/2018/conf/9-2%20Zhang.pdf"

@@ -5,31 +5,30 @@
 
   const featuredProjects = [
     {
+      name: "load balancer tool",
+      href: "https://github.com/basilysf1709/load-balancer",
+      desc: "visualize load balancer algorithms",
+    },
+    {
+      name: "dynamodb",
+      href: "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
+      desc: "deep dive into the architecture of Amazon's DynamoDB",
+    },
+    {
+      name: "lsm trees",
+      href: "https://github.com/basilysf1709/btree-lsm-benchmark",
+      desc: "ground up implementation of lsm trees",
+    },
+    {
+      name: "kubernetes",
+      href: "https://medium.com/@basilyusuf1709/kubernetes-a-basic-overview-ad83bd92b727",
+      desc: "completed a beginner course on kubernetes",
+    },
+    {
       name: "dockermake",
       href: "https://github.com/basilysf1709/dockermake",
       desc: "add a makefile for your docker",
-    },
-    {
-      name: "design patterns",
-      href: "https://github.com/basilysf1709/tcp-server-design-patterns",
-      desc: "design patterns in low-level C++ networking"
-    },
-    {
-      name: "teachify",
-      href: "https://github.com/UsmanBasilAgency/teachify",
-      desc: "Fully administered AI tool to help professors and students in their daily tasks",
-      aside: "Backed by Prof. Judi McCuaig"
-    },
-    {
-      name: "getquranverse",
-      href: "https://github.com/basilysf1709/getquranverse",
-      desc: "Quran Trivia with friends",
-      aside: "2000 visitors"
-    },
-    {
-      name: "rate-limiter",
-      href: "https://github.com/basilysf1709/rate-limiting-as-a-service",
-      desc: "Implementing rate limiting algorithms in go"
+      aside: "made this project after a reddit post got 100k views :)",
     },
   ];
 </script>
@@ -65,7 +64,7 @@
   </div>
 
   <div class="leading-snug space-y-4">
-    <p class="pb-2">Notable projects:</p>
+    <p class="pb-2">What I have built and learned so far in 2024:</p>
 
     {#each featuredProjects as project}
       <a class="project-pair" href={project.href}>
