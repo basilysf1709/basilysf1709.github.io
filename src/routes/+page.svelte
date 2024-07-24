@@ -55,11 +55,10 @@
     </p> -->
 
     <p>
-      These dayas I live and breathe distributed systems. The intricate dance of components, the delicate balance of trade-offs, and the constant push against the boundaries of scale – these are the puzzles that keep me up at night and get me out of bed each morning.
+      I am deeply passionate about infrastructure, distributed systems and container orchestration
     </p>
-
     <p>
-      What truly fascinates me is how things break in spectacular and often unpredictable ways as systems scale. It's like watching a high-stakes game of Jenga played out in code and infrastructure. Each optimization, each new layer of complexity, adds both power and fragility. I'm obsessed with finding that sweet spot where performance, reliability, and maintainability converge, always pushing the envelope of what's possible in large-scale distributed computing.    
+      I absolutely love distributed systems. What truly amazes me is how things break in often unpredictable ways as systems scale. It's like watching a high-stakes game of Jenga played out in code and infrastructure. Each optimization, each new layer of complexity, adds both power and fragility. I'm obsessed with finding that sweet spot where performance, reliability, and maintainability converge, always pushing the envelope of what's possible in large-scale distributed computing. If you share the same level of passion as me, feel free to reach out at: basilyusuf1709@gmail.com   
     </p>
   </div>
 
