@@ -55,11 +55,11 @@
     </p> -->
 
     <p>
-      I am deeply passionate about developing software that solves hard technical problems at scale.
+      These dayas I live and breathe distributed systems. The intricate dance of components, the delicate balance of trade-offs, and the constant push against the boundaries of scale – these are the puzzles that keep me up at night and get me out of bed each morning.
     </p>
 
     <p>
-      In this pursuit, I aspire to become a specialist with deep domain-specific knowledge in Platform, Infrastructure, and Distributed Systems. I aim to master designing and managing scalable, robust, and efficient systems that can support a wide range of applications. My goal is to contribute to the development of cutting-edge technologies that enhance performance and scalability.
+      What truly fascinates me is how things break in spectacular and often unpredictable ways as systems scale. It's like watching a high-stakes game of Jenga played out in code and infrastructure. Each optimization, each new layer of complexity, adds both power and fragility. I'm obsessed with finding that sweet spot where performance, reliability, and maintainability converge, always pushing the envelope of what's possible in large-scale distributed computing.    
     </p>
   </div>
 
