@@ -5,9 +5,25 @@
 
   const featuredProjects = [
     {
-      name: "load balancer tool",
-      href: "https://github.com/basilysf1709/load-balancer",
-      desc: "visualize load balancer algorithms",
+      name: "distributed systems",
+      href: "https://github.com/basilysf1709/distributed-systems",
+      desc: "comprehensive guide and algorithms on distributed systems implemented in zig",
+    },
+    {
+      name: "chsim",
+      href: "https://github.com/basilysf1709/chsim",
+      desc: "consistent hashing ring simulation in zig",
+    },
+    {
+      name: "lsm trees",
+      href: "https://github.com/basilysf1709/btree-lsm-benchmark",
+      desc: "ground up implementation of lsm trees in c++",
+    },
+    {
+      name: "dockermake",
+      href: "https://github.com/basilysf1709/dockermake",
+      desc: "add a makefile for your docker",
+      aside: "made this project after a reddit post got 100k views :)",
     },
     {
       name: "dynamodb",
@@ -15,20 +31,9 @@
       desc: "deep dive into the architecture of Amazon's DynamoDB",
     },
     {
-      name: "lsm trees",
-      href: "https://github.com/basilysf1709/btree-lsm-benchmark",
-      desc: "ground up implementation of lsm trees",
-    },
-    {
       name: "kubernetes",
       href: "https://medium.com/@basilyusuf1709/kubernetes-a-basic-overview-ad83bd92b727",
       desc: "completed a beginner course on kubernetes",
-    },
-    {
-      name: "dockermake",
-      href: "https://github.com/basilysf1709/dockermake",
-      desc: "add a makefile for your docker",
-      aside: "made this project after a reddit post got 100k views :)",
     },
   ];
 </script>
