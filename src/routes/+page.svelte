@@ -5,6 +5,12 @@
 
   const featuredProjects = [
     {
+      name: "new builds",
+      href: "https://github.com/Victoria-DR/new-builds-2024",
+      desc: "slime mould algorithm to fix toronto ttc",
+      aside: "most unusual application of ai, wombo.ai award :)",
+    },
+    {
       name: "distributed systems",
       href: "https://github.com/basilysf1709/distributed-systems",
       desc: "comprehensive guide and algorithms on distributed systems implemented in zig",
