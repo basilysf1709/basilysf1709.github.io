@@ -98,6 +98,8 @@
 
   <div class="space-y-5">
     <p>
+      I am working as a Software Engineer at <a class="link" href="https://google.com"
+      >Google</a> now. 
       Previously, I worked at <a class="link" href="https://deloitte.com"
         >Deloitte</a
       >, <a class="link" href="https://www.amazon.ca/ftu/home">Amazon</a>,
